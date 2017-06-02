@@ -1,0 +1,40 @@
+.esit{
+  .es{
+    display: block;
+  }
+}
+.list{
+  .es{
+    display: none;
+  }
+}
+h1{
+  font-style:normal;
+  font-family: cursive;
+  text-align: center;
+}
+.new{
+  border-right: 2px;
+  border-style: solid;
+  border-color: white;
+  border-right-color: grey;
+  margin-top: 5%
+}
+.edit{
+  border-right: 2px;
+  border-style: solid;
+  border-color: white;
+  border-right-color: grey;
+  margin-top: 5%;
+}
+.list{
+  border-right: 2px;
+  border-style: solid;
+  border-color: white;
+  border-right-color: grey;
+  margin-top: 5%;
+}
+.all{
+  color:grey;
+  background-color:black;
+}
