@@ -11,10 +11,10 @@ import { Meal } from './meal.model';
     <option value="500">chakula iliyo na calories ya juu</option>
 </select>
     <div *ngFor="let currentMeal of childMealList | completeness:selectedCalories">
-    <h3>jina ya chakula:{{ currentMeal.name }}</h3>
+    <h3>jina ya chakula:<br>{{ currentMeal.name }}</h3>
       <div class = "es">
-      <p>ufafanuzi wake :{{currentMeal.description}}</p>
-      <p> idadi ya Calories:{{currentMeal.calories}}</p>
+      <p>ufafanuzi wake :<br>{{currentMeal.description}}</p>
+      <p> idadi ya Calories:<br>{{currentMeal.calories}}</p>
       <button class = "btn btn-info" (click)="editButtonHasBeenClicked(currentMeal)">Edit</button>
       </div>
       </div>
